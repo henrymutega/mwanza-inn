@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import Navbar from "./components/Navbar";
 
 export const metadata = {
   title: "Mwanza Inn",
@@ -8,6 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Navbar/>
       <body>
         {children}
       </body>
