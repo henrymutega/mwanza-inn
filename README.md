@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mwanza-Inn
 
-## Getting Started
+Mwanza-Inn is a modern hotel management web application built with Next.js. It provides a seamless experience for users to browse accommodations, make reservations, and manage bookings. Designed with scalability, responsiveness, and user-centricity in mind, Mwanza-Inn simplifies hotel operations and enhances the guest experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🏨 **Room Browsing**: Explore available accommodations with detailed information.
+- 🛏️ **Booking System**: Effortlessly reserve rooms with a secure booking process.
+- 📊 **Admin Dashboard**: Manage bookings, customer data, and availability.
+- 📱 **Responsive Design**: Optimized for mobile, tablet, and desktop.
+- 🔗 **API Integration**: Real-time room availability and pricing updates.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js, React
+- **Styling**: Tailwind CSS or Styled Components (customizable)
+- **Backend**: Next.js API Routes, Node.js
+- **Database**: MongoDB/PostgreSQL (flexible based on your preference)
+- **Deployment**: Vercel or other cloud platforms
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Follow these steps to set up the project locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
+- Node.js installed ([Download here](https://nodejs.org/)).
+- Git installed ([Download here](https://git-scm.com/)).
 
-## Deploy on Vercel
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/mwanza-inn.git
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. cd mwanza-inn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. npm install
+
+4. npm run dev
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Usage
+
+### Users:
+Browse available rooms with descriptions and prices.
+Make secure bookings with real-time availability.
+
+### Admins:
+Manage room availability, customer reservations, and other hotel operations from the admin dashboard.
+
+## Contributing
+
+#### Contributions are welcome! Follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch (feature/new-feature).
+
+3. Commit your changes (git commit -m 'Add new feature').
+
+4. Push the branch (git push origin feature/new-feature).
+
+5. Open a Pull Request.
+
+## Contact
+For questions or suggestions, reach out to:
+Email: hmutega@gmail.com
+
