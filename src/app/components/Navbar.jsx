@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav style={styles.navbar}>
-      <div style={styles.logo}>Mwanza-Inn</div>
-      <ul style={styles.navLinks}>
+    <nav className="navbar">
+      <div className="logo">Mwanza-Inn</div>
+      <ul className="navLinks">
         <li>
           <Link href="/">Home</Link>
         </li>
