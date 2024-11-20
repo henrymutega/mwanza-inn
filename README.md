@@ -20,7 +20,7 @@ Mwanza-Inn is a modern hotel management web application built with Next.js. It p
 - **Database**: MongoDB/PostgreSQL (flexible based on your preference)
 - **Deployment**: Vercel or other cloud platforms
 
----
+--------------
 
 ## Installation
 
